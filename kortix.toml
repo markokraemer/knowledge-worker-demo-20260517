@@ -1,0 +1,14 @@
+# Kortix project manifest.
+kortix_version = 1
+
+[project]
+name = "Knowledge Worker Demo"
+description = "Demo project showing a general knowledge-worker skill library."
+
+[env]
+required = []
+optional = ["ANTHROPIC_API_KEY", "OPENAI_API_KEY"]
+
+[sandbox]
+dockerfile = "Dockerfile"
+context = "."
