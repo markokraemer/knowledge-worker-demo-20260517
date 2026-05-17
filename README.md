@@ -1,2 +1,5 @@
-# knowledge-worker-demo-20260517
-Kortix demo project — general knowledge-worker skills.
+# Knowledge Worker Demo
+
+A Kortix demo project, pre-loaded with a general knowledge-worker
+skill library. Browse the skills under `.opencode/skills/` or via
+the Customize → Skills page in the Kortix UI.
