@@ -1,4 +1,5 @@
 kortix_version = 1
+triggers = []
 
 [project]
 name = "Knowledge Worker Demo"
@@ -11,13 +12,3 @@ optional = [ "ANTHROPIC_API_KEY", "OPENAI_API_KEY" ]
 [sandbox]
 dockerfile = "Dockerfile"
 context = "."
-
-[[triggers]]
-slug = "test"
-name = "test"
-type = "cron"
-agent = "default"
-enabled = true
-cron = "0 0 9 * * *"
-timezone = "UTC"
-prompt = "s12312321"
